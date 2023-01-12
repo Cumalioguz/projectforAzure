@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "bBWp00mpmKwfDZzAsL/SJTEy5e+v3gnMJVEalzBb7Ic=",
+  "Source": "AdventureWorks.Web",
+  "BasePath": "_content/AdventureWorks.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AdventureWorks.Web\\wwwroot",
+      "Source": "AdventureWorks.Web",
+      "ContentRoot": "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\wwwroot\\",
+      "BasePath": "_content/AdventureWorks.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\wwwroot\\mountains.jpg",
+      "SourceId": "AdventureWorks.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\wwwroot\\",
+      "BasePath": "_content/AdventureWorks.Web",
+      "RelativePath": "mountains.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mountains.jpg"
+    }
+  ]
+}

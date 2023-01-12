@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\project1\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project1\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj",
+        "projectName": "AdventureWorks.Context",
+        "projectPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj",
+        "packagesPath": "C:\\Users\\cumali oğuz\\.nuget\\packages\\",
+        "outputPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cumali oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj": {
+                "projectPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.28.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj",
+        "projectName": "AdventureWorks.Models",
+        "projectPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj",
+        "packagesPath": "C:\\Users\\cumali oğuz\\.nuget\\packages\\",
+        "outputPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cumali oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj",
+        "projectName": "AdventureWorks.Web",
+        "projectPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj",
+        "packagesPath": "C:\\Users\\cumali oğuz\\.nuget\\packages\\",
+        "outputPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cumali oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\project1\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj": {
+                "projectPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj"
+              },
+              "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj": {
+                "projectPath": "D:\\project1\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[3.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
